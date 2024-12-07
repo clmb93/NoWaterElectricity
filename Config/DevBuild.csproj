@@ -1,0 +1,24 @@
+<Project>
+	<!-- Partie build -->
+	<ItemGroup>
+		<!-- Inclure tous les fichiers du dossier Resources -->
+		<None Include="Resources\**\*" CopyToOutputDirectory="PreserveNewest" />
+	</ItemGroup>
+
+	<Target Name="CopyResources" AfterTargets="Build">
+		<Copy
+		  SourceFiles="@(None->'%(FullPath)')"
+		  DestinationFolder="$(OutDir)\Resources\%(RecursiveDir)"
+		  SkipUnchangedFiles="true" />
+	</Target>
+
+
+	<Target Name="killCities2" AfterTargets="BeforeBuild">
+		<Exec Command="taskkill /F /IM Cities2.exe" ContinueOnError="true" />
+	</Target>
+
+
+	<Target Name="launchSteam" AfterTargets="afterBuild">
+		<Exec Command="start steam://rungameid/949230" />
+	</Target>
+</Project>
