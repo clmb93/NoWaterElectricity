@@ -8,9 +8,9 @@
 		your savegame beore using this mod.
 	</LongDescription>
 	<Thumbnail Value="Properties/Thumbnail.png" />
-	<Screenshot Value="Screen/screen1.png" />
-	<Screenshot Value="Screen/screen2.png" />
-	<Screenshot Value="Screen/screen3.png" />
+	<Screenshot Value="Properties/Screen/screen1.png" />
+	<Screenshot Value="Properties/Screen/screen2.png" />
+	<Screenshot Value="Properties/Screen/screen3.png" />
 	<Tag Value="Code Mode" />
 	<ForumLink Value="" />
 	<ModVersion Value="1.0" />
