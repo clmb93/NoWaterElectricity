@@ -17,10 +17,10 @@ namespace NoWaterElectricity
 
 
         [SettingsUISection(kSection, kToggleGroup)]
-        public bool buildingNeedElectricity { get; set; } = true;
+        public bool buildingNeedElectricity { get; set; } = false;
 
         [SettingsUISection(kSection, kToggleGroup)]
-        public bool buildingNeedWater { get; set; } = true;
+        public bool buildingNeedWater { get; set; } = false;
 
         [SettingsUISection(kSection, kToggleGroup)]
         public string version
@@ -54,7 +54,7 @@ namespace NoWaterElectricity
             return new Dictionary<string, string>
             {
                 //Menu ui
-                { m_Setting.GetSettingsLocaleID(), "No water electrecity" },
+                { m_Setting.GetSettingsLocaleID(), "No water electricity" },
                 { m_Setting.GetOptionTabLocaleID(Setting.kSection), "Main" },
                 { m_Setting.GetOptionGroupLocaleID(Setting.kToggleGroup), "Configuration" },              
                 
