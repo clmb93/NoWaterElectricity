@@ -1,5 +1,5 @@
 ﻿<Publish>
-	<ModId Value="96265" />
+	<ModId Value="96266" />
 	<DisplayName Value="NoWaterElectricity" />
 	<ShortDescription Value="Disable water/electricity consumption" />
 	<LongDescription>
@@ -11,6 +11,7 @@
 	<Screenshot Value="Properties/Screen/screen1.png" />
 	<Screenshot Value="Properties/Screen/screen2.png" />
 	<Screenshot Value="Properties/Screen/screen3.png" />
+	<Screenshot Value="Properties/Screen/screen4.png" />
 	<Tag Value="Code Mod" />
 	<ForumLink Value="" />
 	<ModVersion Value="1.0" />
