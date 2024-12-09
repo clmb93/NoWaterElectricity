@@ -1,5 +1,5 @@
 ﻿<Publish>
-	<ModId Value="com.nowaterelectricity" />
+	<ModId Value="NoWaterElectricity" />
 	<DisplayName Value="NoWaterElectricity" />
 	<ShortDescription Value="Disable water/electricity consumption" />
 	<LongDescription>
@@ -8,7 +8,9 @@
 		your savegame beore using this mod.
 	</LongDescription>
 	<Thumbnail Value="Properties/Thumbnail.png" />
-	<Screenshot Value="" />
+	<Screenshot Value="Screen/screen.png" />
+	<Screenshot Value="Screen/screen1.png" />
+	<Screenshot Value="Screen/screen2.png" />
 	<Tag Value="Code Mode" />
 	<ForumLink Value="" />
 	<ModVersion Value="1.0" />
