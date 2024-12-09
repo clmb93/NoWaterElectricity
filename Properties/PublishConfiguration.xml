@@ -1,5 +1,5 @@
 ﻿<Publish>
-	<ModId Value="NoWaterElectricity" />
+	<ModId Value="" />
 	<DisplayName Value="NoWaterElectricity" />
 	<ShortDescription Value="Disable water/electricity consumption" />
 	<LongDescription>
@@ -8,14 +8,14 @@
 		your savegame beore using this mod.
 	</LongDescription>
 	<Thumbnail Value="Properties/Thumbnail.png" />
-	<Screenshot Value="Screen/screen.png" />
 	<Screenshot Value="Screen/screen1.png" />
 	<Screenshot Value="Screen/screen2.png" />
+	<Screenshot Value="Screen/screen3.png" />
 	<Tag Value="Code Mode" />
 	<ForumLink Value="" />
 	<ModVersion Value="1.0" />
 	<GameVersion Value="1.0.*" />
 	<Dependency Id="" />
 	<ChangeLog Value="" />
-	<ExternalLink Type="" Url="" />
+	<ExternalLink Type="github" Url="https://github.com/clmb93/NoWaterElectricity" />
 </Publish>
