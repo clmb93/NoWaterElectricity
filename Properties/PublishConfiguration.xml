@@ -1,5 +1,5 @@
 ﻿<Publish>
-	<ModId Value="96266" />
+	<ModId Value="96267" />
 	<DisplayName Value="NoWaterElectricity" />
 	<ShortDescription Value="Disable water/electricity consumption" />
 	<LongDescription>
@@ -14,9 +14,9 @@
 	<Screenshot Value="Properties/Screen/screen4.png" />
 	<Tag Value="Code Mod" />
 	<ForumLink Value="" />
-	<ModVersion Value="1.0" />
-	<GameVersion Value="1.0.*" />
+	<ModVersion Value="1.0.1" />
+	<GameVersion Value="1.1.12f1" />
 	<Dependency Id="" />
-	<ChangeLog Value="" />
+	<ChangeLog Value="Change game version" />
 	<ExternalLink Type="github" Url="https://github.com/clmb93/NoWaterElectricity" />
 </Publish>
