@@ -15,7 +15,7 @@
 	<Tag Value="Code Mod" />
 	<ForumLink Value="" />
 	<ModVersion Value="1.0.1" />
-	<GameVersion Value="1.1.12f1" />
+	<GameVersion Value="1.2.0f1" />
 	<Dependency Id="" />
 	<ChangeLog Value="Change game version" />
 	<ExternalLink Type="github" Url="https://github.com/clmb93/NoWaterElectricity" />
